@@ -1,12 +1,12 @@
-#**Resource Management System
+#  Resource Management System
 A microservices-based system for managing metering points and connection points across multiple countries, with real-time notifications via Apache Kafka.
-##**Architecture Overview
+##  Architecture Overview
 The system consists of two main microservices:
 
 Resource Service (Port 8082): Manages resources, locations, and characteristics
 Notification Service (Port 8081): Handles Kafka event consumption and notifications
 
-##**Tech Stack
+##  Tech Stack
 
 Java 21+
 Spring Boot 3.x
@@ -16,7 +16,7 @@ Docker & Docker Compose - Containerization
 Swagger/OpenAPI - API documentation
 Liquibase - Database migrations
 
-##**Prerequisites
+##  Prerequisites
 Before running the application, ensure you have:
 
 Docker and Docker Compose installed
