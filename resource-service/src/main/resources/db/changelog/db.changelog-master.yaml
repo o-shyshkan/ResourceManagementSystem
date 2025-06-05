@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/create-table-locations.sql
+  - include:
+      file: db/changelog/changes/create-table-characteristics.sql
+  - include:
+      file: db/changelog/changes/create-table-resources.sql
+  - include:
+      file: db/changelog/changes/create-table-resources_characteristics.sql
